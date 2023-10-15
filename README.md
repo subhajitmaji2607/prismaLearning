@@ -3,13 +3,13 @@ npx prisma db pull
 Run <npx prisma db pull> to turn your database schema into a Prisma schem
 Run <npx prisma generate> to generate the Prisma Client. You can then start querying your database.
 
-run all migation at once 
+run all migration at once 
 npx prisma migrate dev
-**If no migtation availabe in prisma directory then run 
+**If no migration available in prisma directory then run 
 npx prisma migrate dev --name init
 
 generate new migration after changing something in schema.prisma
-npx prisma migrate dev --name <your_migartion_name>
+npx prisma migrate dev --name <your_migration_name>
 <npx prisma generate> is called under the hood by default, after running prisma migrate dev.
 
 Run <npx prisma format> to format schema.prisma
@@ -57,7 +57,7 @@ Examples
   Format your Prisma schema
   $ prisma format
 
-subhajit@CXLINLT108:~/Desktop/selfassignments/prisma$ npx prisma init
+subhajit@CXLINLT108:~/Desktop/playground/prisma$ npx prisma init
 
 ✔ Your Prisma schema was created at prisma/schema.prisma
   You can now open it in your favorite editor.
